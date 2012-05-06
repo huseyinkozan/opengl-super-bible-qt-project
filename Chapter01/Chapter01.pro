@@ -3,4 +3,4 @@ TEMPLATE = subdirs
 CONFIG -= ordered
 
 SUBDIRS += \
-    Block
+    C01_Block

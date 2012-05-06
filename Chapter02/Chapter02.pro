@@ -3,5 +3,5 @@ TEMPLATE = subdirs
 CONFIG -= ordered
 
 SUBDIRS += \
-    Bounce \
-    Move
+    C02_Bounce \
+    C02_Move
