@@ -10,3 +10,6 @@ LIBS += -L$$quote($$PWD/../../GLTools) -lGLTools
 
 SOURCES += \
     $$quote(../../../Src/Chapter05/Pyramid/Pyramid.cpp)
+
+QMAKE_POST_LINK += cp $$PWD/../../../Src/Chapter05/Pyramid/*.tga $$OUT_PWD
+QMAKE_CLEAN += $$OUT_PWD/*.tga
