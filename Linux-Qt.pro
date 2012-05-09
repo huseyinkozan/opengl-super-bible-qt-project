@@ -16,4 +16,5 @@ SUBDIRS += \
     Chapter02 \
     Chapter03 \
     Chapter04 \
-    Chapter05
+    Chapter05 \
+    Chapter06
